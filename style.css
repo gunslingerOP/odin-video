@@ -342,22 +342,16 @@ position: relative;
 .duration{
     position: absolute;
     z-index:4 ;
-    width: 100%;
-    bottom:25px;
-    right: 0px;
-
-}
-
-.duration span{
-    padding: 1px;
-    position: absolute;
-    right: 0;
-    border-radius: 6%;
-    margin-right: 6px;
-    color: blanchedalmond;
     background-color: black;
+    color: white;
+    padding: 2px;
+    border-radius: 5%;
+    bottom:5px;
+    right: 5px;
 
 }
+
+
 
 span.rec-title{
     padding-bottom: 10px;
@@ -372,7 +366,9 @@ span.rec-info{
 .side-details{
     padding-left: 10px;
 }
-
+.creator{
+    display: none;
+}
 
 @media (max-width: 1340px) {
 
@@ -492,7 +488,8 @@ span.rec-info{
         display: flex;
         margin-top: 15px;
     }
-    .side-details img{
+    .creator{
+        display: block;
         border-radius: 50%;
         width: 15%;
         height: 15%;
